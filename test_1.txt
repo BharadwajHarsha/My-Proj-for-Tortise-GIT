@@ -1,4 +1,5 @@
 
+//This is changed from test1 branch
 
 var app = angular.module("store", ['ui-router']);
 app.controller("StoreController", function($scope){
