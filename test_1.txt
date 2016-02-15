@@ -2,6 +2,9 @@ var app = angular.module("store", ['ui-router']);
 app.controller("StoreController", function($scope){
 	$scope.products = items;
 });
+app.filter("test", function(){
+ return (function(param){console.log(param);});
+});
 app.directive("productTitle", function(){
 	return{
 		restrict:"AE",
