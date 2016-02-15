@@ -1,3 +1,5 @@
+//This is a edit from GITHUB webInterface
+
 var app = angular.module("store", ['ui-router']);
 app.controller("StoreController", function($scope){
 	$scope.products = items;
